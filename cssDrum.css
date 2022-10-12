@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: grey;
+}
+
+/*width and height set to vw for responsive design */
+.drumkit {
+  margin: 0;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  height: 81vw;
+}
+
+/*width and height set to vw for responsive design */
+.drumkit img {
+  width: 100vw;
+  height: 81vw;
+}
+
+#bass-drum {
+  grid-column-start: 6;
+  grid-row-start: 7;
+}
+
+#crash {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  height: 30px;
+  margin-top: 23px;
+}
+
+#floor-tom {
+  grid-column-start: 4;
+  grid-row-start: 4;
+  height: 35px;
+}
+
+#hi-hat {
+  grid-column-start: 9;
+  grid-row-start: 3;
+  height: 35px;
+}
+
+#high-tom {
+  grid-column-start: 7;
+  grid-row-start: 3;
+  height: 35px;
+  margin-top: 10px;
+}
+#medium-tom {
+  grid-column-start: 5;
+  grid-row-start: 3;
+  height: 35px;
+  margin-top: 10px;
+}
+
+#snare {
+  grid-column-start: 8;
+  grid-row-start: 4;
+  height: 35px;
+}
+
+#ride {
+  grid-column-start: 9;
+  grid-row-start: 1;
+  height: 35px;
+  margin-top: 30px;
+}
+
+.drum-btns {
+  background-color: rgb(178, 126, 227);
+}
